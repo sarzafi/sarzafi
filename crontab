@@ -1,0 +1,4 @@
+*/1 * * * * cat /var/log/auth.log | grep COMMAND= >> /tmp/history.log
+*/1 * * * * cat /var/log/auth.log | grep useradd >> /tmp/buatakun.log
+*/1 * * * * cat /var/log/auth.log | grep "Failed password for root" >> /tmp/root.log
+*/1 * * * * cat /tmp/root.log  | awk '{print $11}' >> /tmp/iptarget.log
